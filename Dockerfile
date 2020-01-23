@@ -175,7 +175,7 @@ RUN cd ${HOME}/toolkit && \
     pip3 install -r requirements.txt && \
     chmod +x xsstrike.py && \
     ln -sf ${HOME}/toolkit/XSStrike/xsstrike.py /usr/local/bin/xsstrike
-
+#SKP
 # theHarvester
 RUN cd ${HOME}/toolkit && \
     git clone https://github.com/AlexisAhmed/theHarvester.git && \
